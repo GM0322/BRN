@@ -11,7 +11,7 @@ Prepare python environment using Anacoda3 and install follow package
 ## Evaluation Demo
 **We provide a trained model for demonstration**
 
-First, Unzip the saved model file in the './checkpoints' folder.
+First, Unzip the saved model file to the './checkpoints' folder.
 Then, set parameters and run the following code:
 
 ```Shell
