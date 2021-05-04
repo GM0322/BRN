@@ -5,7 +5,7 @@ from utils import block
 
 # filterModule = module.FilterModule()
 args = config.getAgrs()
-input_data = torch.from_numpy(np.fromfile(r'E:\BRNData\val\projData_False\990.raw',dtype=np.float32)).view(1,1,args.nViews,args.nBins)
+input_data = torch.from_numpy(np.fromfile(r'.\test\input\001.raw',dtype=np.float32)).view(1,1,args.nViews,args.nBins)
 
 filterModule = torch.load(r'./checkpoints/FilterModule.pt')
 bpone = torch.load(r'./checkpoints/bpone.pt')
