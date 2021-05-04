@@ -36,7 +36,5 @@ python train.py
 ## Contact
 For any question, please file an issue or contact
 ```
-Xing Zhao: zhaoxing_1999@126.com
-Yining Zhu: ynzhu@cnu.edu.cn
 Genwei Ma: magenwei@126.com
 ```
