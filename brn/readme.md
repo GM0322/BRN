@@ -24,7 +24,7 @@ Note: Need to convert the saved model to traced script module which supported by
 
 
 ## trainning 
-If you want re-train the network parameters, you can train the pre-trainning processing and trainning processing as the following two commands. 
+If you want to re-train the network parameters, you can train the pre-trainning processing and trainning processing as the following two commands. 
 ```Shell
 python pretrain.py
 ```
