@@ -22,7 +22,7 @@ def train():
             out = bpone(out.half())
             out = out[:,:,3:-3,3:-3].float()
             out = dnn(out)
-            gt = y.view(y.size(0),1,102,102)[:,:,3:-3,3:-3].cuda(args.gpu[0])
+            gt = y.view(y.size(0),1,102,102)[:,:,3:-3,3:-3].permute(0,1,3,2).cuda(args.gpu[0])
             loss = criterion(out,gt)
             f_optim.zero_grad()
             e_optim.zero_grad()
