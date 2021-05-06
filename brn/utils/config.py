@@ -20,7 +20,7 @@ def getAgrs():
     args.add_argument('--f_testpath',type=str,default=r'E:\BRNData\val\projData_False')
     args.add_argument('--f_savePath',type=str,default=r'/../filterOut/')
 
-    # Extract block parameters
+    # Extract block and segment one of block back-projection parameters
     args.add_argument('--e_isTrain',type=bool,default=False)
     args.add_argument('--e_block',type=int,default=36)
     args.add_argument('--e_bins',type=int,default=168)
