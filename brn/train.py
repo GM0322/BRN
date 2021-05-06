@@ -16,7 +16,7 @@ def train():
     d_optim = torch.optim.SGD(dnn.parameters(), lr=args.lr)
     criterion = torch.nn.MSELoss()
     print('----------------start train BRN----------------------------')
-    for epoch in range(args.d_epoch):
+    for epoch in range(args.epoch):
         for step,(x,y) in enumerate(train_loader):
             out = filterModule(x.cuda(args.gpu[0]))
             out = bpone(out.half())
