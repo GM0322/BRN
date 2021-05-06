@@ -22,7 +22,7 @@ import matplotlib.pyplot as plt
 res = (out[0,0,:,:].data.cpu().numpy()-0.1837)/0.1837*1000
 plt.figure(1)
 plt.imshow(res,cmap='gray',vmin=-160,vmax=240)
-gt = np.fromfile(r'E:\BRNData\val\label\990.raw',dtype=np.float32).reshape(args.resolution,args.resolution)
+gt = np.fromfile(r'.\test\label\001.raw',dtype=np.float32).reshape(args.resolution,args.resolution)
 plt.figure(2)
 gt = (gt.T-0.1837)/0.1837*1000
 plt.imshow(gt,cmap='gray',vmin=-160,vmax=240)
