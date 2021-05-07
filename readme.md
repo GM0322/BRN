@@ -1,5 +1,5 @@
 # BRN
-Codebase for "A block reconstruction network (BRN) approachfor computed tomography"
+Codebase for "A block reconstruction network (BRN) approach for computed tomography"
 
 ## Preparation
 Prepare python environment using Anacoda3 and install follow package
